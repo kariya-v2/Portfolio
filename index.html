@@ -15,38 +15,143 @@
         <link rel="stylesheet" href="main.css" />
       </head>
 
-  <body> <!-- ここから本文開始 -->
-
-    <h1>XXX's Curry Recipe</h1>
-    <p>
-      我が家に伝わる一子相伝・門外不出の<strong>秘伝のカレーレシピ</strong>を
-      今だけ特別に大公開！<br />
-      このカレーがなぜ代々受け継がれてきたのか、その魅力をあなたも実感してください。
-      秘伝のスパイスと調理法、家族を幸せにする魔法の一皿を体験してください！
-    </p>
-
-    <img src="curryrice.jpg" alt="カレーライスの画像" width="100%" />
-
-    <h2>材料</h2>
-    <p>
-      <strong>8皿分の分量</strong
-      >です。予算や気分にあわせて具材を追加したり、量を調整してください。
-    </p>
-
-    <ul>
-      <li>市販のカレールー（中辛）... 1/2箱</li>
-      <li>鶏肉 ... 400g</li>
-      <li>玉ねぎ ... 3個（中サイズ）</li>
-      <li>にんにく ... 1片</li>
-      <li>水 ... 700ml</li>
-      <li>サラダ油 ... 大さじ1</li>
-      <li>
-        <a href="https://ja.wikipedia.org/wiki/ガラムマサラ">ガラムマサラ</a>
-        ... 適量
-      </li>
-    </ul>
-
-    <h2>作り方</h2>
-    <p>近日大公開！</p>
-  </body> <!-- ここまで本文終了 -->
-</html>
+    <body>
+          <header>
+            <nav>
+              <ul id="header_list">
+                <li class="list_items"><a href="">HOME</a></li>
+                <li class="list_items"><a href="#about">ABOUT</a></li>
+                <li class="list_items"><a href="#skill">SKILL</a></li>
+                <li class="list_items"><a href="#work">WORK</a></li>
+                <li class="list_items"><a href="#article">ARTICLE</a></li>
+              </ul>
+            </nav>
+          </header>
+          <div id="cover">
+            <h1>kunikyu's Portfolio</h1>
+          </div>
+          <main>
+            <section id="about">
+              <div class="core">
+                <h2>ABOUT</h2>
+                <table id="about_table">
+                  <tbody>
+                    <tr>
+                      <th>Nickname</th>
+                      <td>kunikyu</td>
+                    </tr>
+                    <tr>
+                      <th>Affiliation</th>
+                      <td>大阪公立大学工業高等専門学校<br>知能情報コース3年</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <p>
+                  飽きっぽい性格の大阪の高専生です。
+                  <br>特定の趣味は持っていないです。
+                </p>
+              </div>
+            </section>
+            <section id="skill">
+              <div class="core">
+                <h2>SKILL</h2>
+                <div class="skill_list">
+                  <div class="skills">
+                    <img src="pictures\icon_htmlcss.png" >
+                    <h3>HTML/CSS</h3>
+                    <p>このポートフォリオが作成できる程度</p>
+                  </div>
+                  <div class="skills">
+                    <img src="pictures\icon_javascript.png" >
+                    <h3>javascript</h3>
+                    <p>独学で簡単なゲームが作れる程度</p>
+                  </div>
+                  <div class="skills">
+                    <img src="pictures\icon_python.png" >
+                    <h3>Python</h3>
+                    <p>学校の授業で学習し、簡単なプログラムがかける程度</p>
+                  </div>
+                  <div class="skills">
+                    <img src="pictures\icon_arduino.png" >
+                    <h3>Arduino言語</h3>
+                    <p>授業で学習し、基本的な操作ができる程度</p>
+                  </div>
+                  <div class="skills">
+                    <img src="pictures\icon_scratch.png" >
+                    <h3>Scratch</h3>
+                    <p>簡単なゲームが作成できる程度</p>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <section id="work">
+              <div class="core">
+                <h2>WORK</h2>
+                <div class="work_content">
+                  <img src="pictures/waitlistsystem.png" width="200">
+                  <div class="work_text">
+                    <div class="work_headline">
+                      <h3>麻雀の待ち判定システム</h3>
+                      <p>2023/07 - 2023/08</p>
+                    </div>
+                    <p>
+                      麻雀の待ちを判定するシステムです。<br>
+                      学校の課題として作成したもので、Python, google colaboratoryで開発しました。<br>
+                      手牌を13枚入力するとその手牌の待ちを出力します。<br>
+                      正確でない場合があることを確認しています。
+                    </p>
+                    <p class="work_link"><a href="https://github.com/kunikyu/waitlistsystem" target="_blank">githubはこちら</a></p>
+                  </div>
+                </div>
+                <div class="work_content">
+                  <img src="pictures/suikadegame.png" width="200">
+                  <div class="work_text">
+                    <div class="work_headline">
+                      <h3>スイカDEゲーム</h3>
+                      <p>2023/10 - 2023/11</p>
+                    </div>
+                    <p>
+                      ヨッシーのたまご風のゲームです。<br>
+                      第59回大阪公立大学工業高等専門学校高専祭のクラス展示にて展示を行った作品です。<br>
+                      html/cssの一部とjavascriptを担当しました。<br>
+                      上から降ってくる果物を消してスコアを稼ぐゲームです。<br>
+                      条件を満たしていても果物が消えないバグを確認しています。
+                    </p>
+                    <p class="work_link"><a href="https://kunikyu.github.io/groupf/egg.html" target="_blank">ゲームはこちら</a></p>
+                  </div>
+                </div>
+                <div class="work_content">
+                  <img src="pictures/home_EkidenTelop.png" width="200">
+                  <div class="work_text">
+                    <div class="work_headline">
+                      <h3>駅伝テロップ生成システム</h3>
+                      <p>2024/01</p>
+                    </div>
+                    <p>
+                      駅伝の中継のような順位とタイム差が表示されるシステムです。<br>
+                      駅伝の中継を見ていて似たようなのが作れそうだと思い、作ってみました。Pythonを使用して開発し、PySimpleGUI、Pygameを用いています。<br>
+                      チーム名、チェックポイント（定点観測地点）名の入力を行うと、それに合わせてUIが表示されます。画面左は操作画面です。右側に順位とタイム差が出力されます。<br>
+                      githubからアプリケーションのダウンロードが行えます。
+                    </p>
+                    <p class="work_link">
+                      <a href="https://github.com/kunikyu/EkidenTelop" target="_blank">githubはこちら</a>
+                      <a href="works/EkidenTelop.html">操作方法等はこちら</a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <section id="article">
+              <div class="core">
+                <h2>ARTICLE</h2>
+                <p>
+                  <a href="articles\javascript1.html">javascript1</a>
+                </p>
+              </div>
+            </section>
+          </main>
+          <footer>
+            <p id="copyright">© 2023-2024 kunikyu.</p>
+          </footer>
+        </body>
+      </html>
