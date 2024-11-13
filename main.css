@@ -55,10 +55,8 @@ a:link{
   display: flex;
   justify-content: center;
   align-items: baseline;
-  background-image: url(pictures/yama.png);
-  height: calc(100vh - 68px);
-  background-size: cover;
-  background-position: center;
+  height: calc(100vh - 300px);
+
 }
 #cover h1{
   margin-top: 10%;
