@@ -2,6 +2,7 @@ body {
   margin: 0px;
   -webkit-text-size-adjust: 100%;
   background-color: #f0f0f0;
+  
 }
 
 header{
@@ -17,8 +18,15 @@ header{
   justify-content: center;
   align-items: center;/* 縦位置の調整 */
 }
+
+#header_list a:hover {
+  color: lightgray; /* ホバー時の文字色 */
+  text-decoration: underline; /* 下線を追加 */
+  text-decoration-color: white; /* 下線の色を白に指定 */
+}
+
 ul{
-  list-style: none;
+  list-style-type: none;
   padding: 0;
 }
 #header_list{
@@ -26,15 +34,20 @@ ul{
   display: flex;
   justify-content: center;
   margin: 0 0;
+  
 }
+#header_list a {
+  color: white; /* リンクの文字色を白にする */
+}
+
 .list_items{
   padding: 10px 30px;
-  
+
 }
 .list_items a{
   text-decoration: none;
 }
-a:link,a:visited{
+a:link{
   color: black;
 }
 #cover{
@@ -155,25 +168,9 @@ footer{
       -webkit-text-size-adjust: 100%;
       background-color: #f0f0f0;
   }
-  header{
-      position: fixed;
-      z-index: 100;
-      margin: 0 auto;
-      display: flex;
-      background-color: whitesmoke;
-      justify-content: center;
-      align-items: center;/* 縦位置の調整 */
+      
   }
-  #cover{
-      margin-top: 68px;
-      display: flex;
-      justify-content: center;
-      align-items: baseline;
-      background-image: url(pictures/yama.png);
-      height: calc(100vh - 68px);
-      background-size: cover;
-      background-position: center;
-  }
+  
   #cover h1{
       margin-top: 10%;
   }
@@ -189,16 +186,18 @@ footer{
       display: flex;
       justify-content: center;
       margin: 0 0;
+      
   }
   .list_items{
       padding: 10px 3%;
+      
+      
   }
   .list_items a{
       text-decoration: none;
   }
-  a:link,a:visited{
-      color: black;
-  }
+
+  
   section{
       margin: 0 auto;
   }
@@ -224,7 +223,7 @@ footer{
   h2::before,h2::after {
       content: '';
       flex-grow: 1;/* 余白を分け与える */
-      height: 5px;
+      height: 3px;
       background: rgb(0, 73, 128);
   }
   
@@ -291,4 +290,3 @@ footer{
       width: 100%;
       margin: 0 auto;
   }
-}
