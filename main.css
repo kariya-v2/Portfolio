@@ -6,7 +6,7 @@ body {
 }
 
 .main_visual{
-  background-image: url('/Pictures/background.jpg');
+  background-image: url('Pictures/background.jpg');
   background-size: cover;
   background-position: center top;
 }
